@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(255, 231, 179, 0.795);
+}
+
+.headContainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(228, 92, 13, 0.301);
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.navContainer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 20px;
+}
+.tab {
+    background-color:rgba(128, 0, 128, 0.473);
+    color: white;
+    width: 20%;
+    height: 40px;
+    border-radius: 25px;
+    border:solid, black;
+    font-size: 18px;
+    
+}
+
+.tab:hover {
+    background-color: rgba(234, 149, 255, 0.74);
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 20px
+
+}
+
+.contactFormContainer {
+    background-color: pink;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 25px;
+}
