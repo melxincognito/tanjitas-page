@@ -2,7 +2,8 @@ import { divide, initial } from 'lodash';
 import './style.css';
 import puta from './modules/init.js'
 import contactInfo from './modules/contact.js'
-
+import tipsContent from './modules/tips.js'
+import locationsPage from './modules/locations.js'
 
 
 
@@ -39,11 +40,13 @@ function listen() {
 
     })
     locationsBtn.addEventListener('click', () => {
-        alert('c');
+        clear();
+        locationsPage();
     
     })
     tipsBtn.addEventListener('click', () => {
-        alert('d');
+        clear();
+        tipsContent();
       
     })
     listingsBtn.addEventListener('click', () => {
