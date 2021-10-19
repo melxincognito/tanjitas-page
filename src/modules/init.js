@@ -1,3 +1,4 @@
+import homePage from './home.js'
 function createHead() {
     const headContainer = document.createElement('div');
     const header = document.createElement('h1');
@@ -35,7 +36,7 @@ function createMainContainer() {
     contentContainer.setAttribute('id', 'contentContainer')
     contentContainer.classList.add('contentContainer')
 
-    contentContainer.innerHTML = '4'
+    contentContainer.innerHTML = ''
 
     return contentContainer
 }
@@ -64,6 +65,8 @@ export default function puta() {
     navContainer.appendChild(locationsBtn);
     navContainer.appendChild(listingsBtn);
     navContainer.appendChild(contactBtn);
+
+   
 
     page.appendChild(area);
     page.appendChild(navContainer);

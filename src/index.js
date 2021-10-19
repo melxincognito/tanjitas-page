@@ -4,10 +4,10 @@ import puta from './modules/init.js'
 import contactInfo from './modules/contact.js'
 import tipsContent from './modules/tips.js'
 import locationsPage from './modules/locations.js'
+import homePage from './modules/home.js'
 
 
-
-puta();
+init();
 
 
 
@@ -28,8 +28,8 @@ function listen() {
 
 
     homeBtn.addEventListener('click', () => {
-        console.log('hello')
-        alert('a');
+        clear();
+        homePage();
 
 
     
@@ -56,3 +56,8 @@ function listen() {
 }
 
 listen();
+
+function init() {
+    puta();
+    homePage()
+}
